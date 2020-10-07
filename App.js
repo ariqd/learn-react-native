@@ -13,7 +13,7 @@ export default function App() {
     setName("Sam");
     setPerson({
       name: 'Luigi',
-      age:
+      age: 35
     })
   };
 
@@ -40,5 +40,3 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     marginTop: 20,
-  },
-});
