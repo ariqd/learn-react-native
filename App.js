@@ -11,6 +11,7 @@ import {
 import Header from "./components/Header";
 import TodoItem from "./components/TodoItem";
 import TodoForm from "./components/TodoForm";
+import Sandbox from "./components/Sandbox";
 
 export default function App() {
   const [todos, setTodos] = useState([
@@ -70,8 +71,10 @@ const styles = StyleSheet.create({
   },
   content: {
     padding: 30,
+    flex: 1,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   },
 });
