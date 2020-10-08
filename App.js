@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
-import { StyleSheet, View, Text, FlatList } from "react-native";
+import { StyleSheet, View, FlatList } from "react-native";
 import Header from "./components/Header";
 import TodoItem from "./components/TodoItem";
 import TodoForm from "./components/TodoForm";
