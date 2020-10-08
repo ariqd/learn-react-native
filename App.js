@@ -11,7 +11,7 @@ import {
 import Header from "./components/Header";
 import TodoItem from "./components/TodoItem";
 import TodoForm from "./components/TodoForm";
-import Sandbox from "./components/Sandbox";
+// import Sandbox from "./components/Sandbox";
 
 export default function App() {
   const [todos, setTodos] = useState([
