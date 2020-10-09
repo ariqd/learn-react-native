@@ -16,7 +16,11 @@ export default function TodoForm({ submitHandler }) {
         onChangeText={changeHandler}
       />
 
-      <Button onPress={() => submitHandler(text)} title="Add todo" color="coral" />
+      <Button
+        onPress={() => submitHandler(text)}
+        title="Add todo"
+        color="coral"
+      />
     </View>
   );
 }
